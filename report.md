@@ -14,7 +14,6 @@ The reports, codes and supporting documents are to be uploaded to Github at:
 
 
 Explain how you implement your `task1.py` here.
-
 Task1 will required the using of numpy.polynomial.legendre.leggauss(n) which will return the node and weight for each node. 
 An integral defined over the interval of [a, b] must be changed to an integral defined over the interval [-1, 1] before applying the Gauss-Legendre rule. 
 It is because the weights and nodes used in Gauss-Legendre quadrature, are computed based on the interval [-1, 1].
@@ -22,7 +21,6 @@ The interval transformation can be done in the following equation, `node_new = (
 The answer will be computed using the following equation, `ans = ((b-a)/2) * sum(weight * f(node_new))` as show in the task 1.py.
 
 Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.
-
 The weights and nodes used in the Gauss-Legendre quadrature can be get by `numpy.polynomial.legendre.leggauss(n)`.
 
 ---------------------------------------------------------
@@ -32,7 +30,6 @@ The weights and nodes used in the Gauss-Legendre quadrature can be get by `numpy
 Explain how you implement your `task2.py` here, especially how to use `odeint`.
 
 A ODE system (ode) which has 4 parameters (y, t, a, b) is created and the following differential equations is defined in the system. dydt = [a*(y0-y0*y1), b*(-y1+y0*y1)]
-
 Initial values condition is defined as follow, `$y_0(0) = 0.1$, and $y_1 (0) = 1.0$` for part 1 and `$y_0(0) = 0.11$ and $y_1(0) = 1.0$` for part 2.
 
 The time from 0 to 5 years is defined by using linspace function in order to plot a smooth line graph.
