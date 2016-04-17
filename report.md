@@ -50,13 +50,17 @@ y0 is the number of prey while y1 is the number of predators.
 
 ![Graph of y against t.jpg](Graph of y against t.jpg)
 
-The is the graph of plotting y against t, the blue color line define the value of y0(t) for initial value of 0.1 while the cyan color line define the value of y0(t) for initial value of 0.11.
+This is the graph of plotting y against t, the blue color line define the value of y0(t) for initial value of 0.1 while the cyan color line define the value of y0(t) for initial value of 0.11.
 
 The green color line define the value of y1(t) for initial value of 0.1 while the magenta color line define the value of y1(t) for initial value of 0.11.
 
 From the graph, we can observe that the number of prey is decreasing while the number of predators is decreasing over these 5 years period.
 
+![Graph of y1 against y0.jpg](Graph of y1 against y0.jpg)
 
+This is the graph of plotting y1 against y0, the red color line define the value of y1(y0) for initial value of 0.1 while the black color line define the value of y1(y0) for initial value of 0.11.
+
+From the graph, we can observe that there is an inverse relationship between prey and predators. When the number of prey increases, the number of predators decreases.
 
 
 Is the system of ODE sensitive to initial condition? Explain.
