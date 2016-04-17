@@ -21,7 +21,7 @@ It is because the weights and nodes used in Gauss-Legendre quadrature, are compu
 The interval transformation can be done in the following equation, `node_new = (b-a)/2 * node + ((a+b)/2)` as show in the task 1.py.
 The answer will be computed using the following equation, `ans = ((b-a)/2) * sum(weight * f(node_new))` as show in the task 1.py.
 
-\\
+
 Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.
 
 The weights and nodes used in the Gauss-Legendre quadrature can be get by `numpy.polynomial.legendre.leggauss(n)`.
@@ -43,6 +43,7 @@ The time from 0 to 5 years is defined by using linspace function in order to plo
 The odeint module in python is used to solve the ODE system. 
 The function in python is defined as `sol = odeint(ode, y_0, t, args=(a,b))`.
 
+
 Put your graphs here and explain.
 
 y0 is the number of prey while y1 is the number of predators.
@@ -54,6 +55,7 @@ The is the graph of plotting y against t, the blue color line define the value o
 The green color line define the value of y1(t) for initial value of 0.1 while the magenta color line define the value of y1(t) for initial value of 0.11.
 
 From the graph, we can observe that the number of prey is decreasing while the number of predators is decreasing over these 5 years period.
+
 
 
 
