@@ -1,5 +1,6 @@
 import numpy as np
 import sympy as sy
+import numpy.polynomial.legendre as npl
 #Your optional code here
 #You can import some modules or create additional functions
 
@@ -7,6 +8,10 @@ import sympy as sy
 def gausslegendre(f, a, b, n=20):
     ans = 0
     # Edit here to implement your code
+    [node,weight] = npl.leggauss(n)
+    node_new = (b-a)/2 * node + ((a+b)/2)
+    ans = ((b-a)/2) * sum(weight * f(node_new))
+    return ans
 
     return ans
 
