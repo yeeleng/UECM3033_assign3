@@ -44,7 +44,7 @@ The function in python is defined as `sol = odeint(ode, y_0, t, args=(a,b))`.
 
 Put your graphs here and explain.
 
-
+![photo.jpeg](photo.jpeg)
 
 Is the system of ODE sensitive to initial condition? Explain.
 
