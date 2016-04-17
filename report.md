@@ -65,6 +65,10 @@ From the graph, we can observe that there is an inverse relationship between pre
 
 Is the system of ODE sensitive to initial condition? Explain.
 
+As observed above, the graphs do not change much when we imposed a different initial condition. 
+Since the changes in the graphs are not significant, we claim that the system of ODE is insensitive to initial condition. 
+In other words, the system of ODE is not sensitive to the changes in the initial condition.
+
 -----------------------------------
 
-<sup>last modified: change your date here</sup>
+<sup>last modified: 18/04/2016</sup>
