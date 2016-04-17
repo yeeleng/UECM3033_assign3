@@ -21,7 +21,7 @@ It is because the weights and nodes used in Gauss-Legendre quadrature, are compu
 The interval transformation can be done in the following equation, `node_new = (b-a)/2 * node + ((a+b)/2)` as show in the task 1.py.
 The answer will be computed using the following equation, `ans = ((b-a)/2) * sum(weight * f(node_new))` as show in the task 1.py.
 
-
+\\
 Explain how you get the weights and nodes used in the Gauss-Legendre quadrature.
 
 The weights and nodes used in the Gauss-Legendre quadrature can be get by `numpy.polynomial.legendre.leggauss(n)`.
