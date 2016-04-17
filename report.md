@@ -44,7 +44,16 @@ The function in python is defined as `sol = odeint(ode, y_0, t, args=(a,b))`.
 
 Put your graphs here and explain.
 
+y0 is the number of prey while y1 is the number of predators.
+
 ![Graph of y against t.jpg](Graph of y against t.jpg)
+
+The is the graph of plotting y against t, the blue color line define the value of y0(t) for initial value of 0.1 while the cyan color line define the value of y0(t) for initial value of 0.11.
+
+The green color line define the value of y1(t) for initial value of 0.1 while the magenta color line define the value of y1(t) for initial value of 0.11.
+
+From the graph, we can observe that the number of prey is decreasing while the number of predators is decreasing over these 5 years period.
+
 
 
 Is the system of ODE sensitive to initial condition? Explain.
